@@ -104,4 +104,4 @@ print(type(a))
 a = {1,2,2,3,3,3}
 # printing set variable
 print("a = ", a)
-print(a[0])
+print(a[0]) # set doesn't support indexing
