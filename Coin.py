@@ -25,8 +25,8 @@ goofy['private_key'] = private_key
 
 user_1 = {}
 user_1_key = RSA.generate(bits= 2048, e=65537)
-user_1['public_key'] = new_key.publickey()
-user_1['private_key']= new_key
+user_1['public_key'] = user_1_key.publickey()
+user_1['private_key']= user_1_key
 
 
 user_2 = {}
